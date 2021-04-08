@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Proyectos on Santiago Gaborov Milich</title>
+    <link>https://santiagogab.github.io/portfolio/post/</link>
+    <description>Recent content in Proyectos on Santiago Gaborov Milich</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate><atom:link href="https://santiagogab.github.io/portfolio/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Proyecto 2: Predicción de Flujo Vehicular - Ciudad de Buenos Aires</title>
+      <link>https://santiagogab.github.io/portfolio/post/chapter-2/</link>
+      <pubDate>Wed, 10 Mar 2021 11:00:59 -0400</pubDate>
+      
+      <guid>https://santiagogab.github.io/portfolio/post/chapter-2/</guid>
+      <description>Este proyecto tiene como finalidad tratar de predecir el flujo vehicular de un punto de la ciudad de Buenos Aires en un determinado horario.
+Para poder realizar la predicción se realiza un enfoque a través de series de tiempo. Se predice tendencia y estacionalidad (todo a través de statsmodel).
+Actualmente este proyecto se encuentra en ejecución. Resta realizar un análisis más profundo para tratar de reducir el error (puede ser a través de ARIMA).</description>
+    </item>
+    
+    <item>
+      <title>Proyecto 1: Predicción de lluvias en Australia</title>
+      <link>https://santiagogab.github.io/portfolio/post/chapter-1/</link>
+      <pubDate>Mon, 09 Nov 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://santiagogab.github.io/portfolio/post/chapter-1/</guid>
+      <description>En este proyecto se trata de predecir a través de clasificadores si una lluvia ocurrirá o no (si va a llover o no). Para lograr la predicción se utilizan features relacionadas a la temperatura, presión atmosférica, humedad, etc. de varias ciudades de Australia.
+Para el modelo de prediccón se usó NaiveBayes y Logistic Regression. Luego se hizo una aproximación utilizando Random Forest. Por ultimo se construyó un PipeLine para determinar cual es el mejor modelo con la configuración óptima de hyperparametros.</description>
+    </item>
+    
+  </channel>
+</rss>
